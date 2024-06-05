@@ -11,7 +11,6 @@ line2 = [int(i) for i in line2]
 line3 = input_data.readline().split()
 line3 = [int(i) for i in line3]
 
-# I used selection sort, here the biggest number in the list is searched and shifted to the beginning of the list. However, if the marks were same, then I just shifted the smaller id.
 for i in range(len(line2)-1):
   temp = i
   for j in range(i+1,len(line2)):
