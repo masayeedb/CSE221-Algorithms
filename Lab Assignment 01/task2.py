@@ -7,7 +7,6 @@ def bubbleSort(arr):
         arr[j], arr[j+1] = arr[j+1], arr[j]
         sort = False
     if sort == True:
-# If we have to sort the array using bubble sort then we have to run both outer and inner loop and the time complexity 0(n^2). We have to break the loop if the given array was already sorted.Therefore, the time complexity will be 0(n).
       break
   return arr
 
